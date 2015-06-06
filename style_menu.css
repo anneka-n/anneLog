@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*全体*/
+
+body{
+	background-color: #00ffff;
+	font-size: 14px;
+	color: #666666;
+}
+
+#img{
+	border-style: none;
+}
+
+
+/*リンク*/
+
+a:link{
+	color: #6a8125;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #000000;
+}
+
+a:hover{
+	color: #f3a42c;
+}
+
+/* メインコンテンツ*/
+
+#conteiner{
+	width: 900px;
+
+}
+
+#header{
+	height: 250px;
+	background-image: url(img/header_haikei.png);
+}
+
+#header h1{
+	padding-top: 28px;
+	padding-left: 32px;
+}
+
+#menu{
+	width: 265px;
+	float: left;
+}
+
+#menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu li{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #86a331;
+	padding: 10px 10px 10px 6px;
+	background-color: #ffffff;
+	margin-top: 14px;
+	margin-right: 14px;
+}
+
+#content{
+	width: 1000px;
+	float: right;
+	background-color: #ffffff;
+	background-color: #ffffff;
+	margin-top: 14px;
+
+}
+
