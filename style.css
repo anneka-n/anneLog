@@ -11,7 +11,7 @@ body{
 }
 
 /*
- *ヘッダー
+ *header
  */
 
 #large_header{
@@ -41,7 +41,7 @@ body{
 
 
 /*
- * リンク
+ * Link
  */
 
 a:link{
@@ -79,4 +79,13 @@ a:hover{
 	background-color: #ffffff;
 	margin-top:　0px;
 	margin-right: 14px;
+}
+
+/*
+ * item
+ */
+
+.item{
+	width: 400px;
+	padding: 50px;
 }
