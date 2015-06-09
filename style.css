@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 
 body{
-	background-color: #00ffff;
+	background-color: #D2C9C4;
 	font-size: 14px;
 	color: #666666;
 }
@@ -14,15 +14,19 @@ body{
  *header
  */
 
-#large_header{
-	height: 550px;
-}
-
 
 #header{
-	height: 250px;
-	background-image: url(img/header_haikei.png);
+	height: 100px;
+	background-color: #0A5789;
+	width: auto;
 }
+
+#header h1{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+
 
 
 #content{
@@ -45,16 +49,16 @@ body{
  */
 
 a:link{
-	color: #6a8125;
+	color: #0A5789;
 	text-decoration: none;
 }
 
 a:visited{
-	color: #000000;
+	color: #0A5789;
 }
 
 a:hover{
-	color: #f3a42c;
+	color: #D2C9C4;
 }
 
 /*
@@ -62,9 +66,10 @@ a:hover{
  */
 
 #menu{
-	width: 500px;
+	width: 200px;
 	float: left;
 }
+
 #menu ul{
 	list-style-type: none;
 	margin: 14px;
@@ -72,13 +77,10 @@ a:hover{
 }
 
 #menu li{
-	border-style: solid;
-	border-width: 1px;
-	border-color: #86a331;
+	margin-top: 2px;
 	padding: 10px 10px 10px 6px;
-	background-color: #ffffff;
-	margin-top:　0px;
-	margin-right: 14px;
+	background-color: #0776A7;
+	color: #0A5789;
 }
 
 /*
@@ -88,4 +90,15 @@ a:hover{
 .item{
 	width: 400px;
 	padding: 50px;
+}
+
+/*
+ *fooer
+ */
+
+#footer{
+	text-align: center;
+	clear: right;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
