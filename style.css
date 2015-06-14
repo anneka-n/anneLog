@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 
 body{
-	background-color: #D2C9C4;
+	background-color: #A1BED9;
 	font-size: 14px;
 	color: #666666;
 }
@@ -17,14 +17,14 @@ body{
 
 #header{
 	height: 100px;
-	background-color: #0A5789;
+	background-color: #025AA8;
 	width: auto;
 }
 
 #header h1{
 	font-size: 50px;
 	color: white;
-	text-align: center;
+	margin-left: 10px;
 }
 
 
@@ -49,16 +49,16 @@ body{
  */
 
 a:link{
-	color: #0A5789;
+	color: #F1F1F1;
 	text-decoration: none;
 }
 
 a:visited{
-	color: #0A5789;
+	color: #F1F1F1;
 }
 
 a:hover{
-	color: #D2C9C4;
+	color: #4886BE;
 }
 
 /*
@@ -72,15 +72,15 @@ a:hover{
 
 #menu ul{
 	list-style-type: none;
-	margin: 14px;
+/*	margin: 14px; */
 	padding: 0px;
 }
 
 #menu li{
 	margin-top: 2px;
 	padding: 10px 10px 10px 6px;
-	background-color: #0776A7;
-	color: #0A5789;
+	background-color: #025AA8;
+	color: #F1F1F1;
 }
 
 /*
